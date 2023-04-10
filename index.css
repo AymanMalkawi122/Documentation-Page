@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.example{
+    background-color: rgb(220, 214, 214);
+    padding: 1.5% 1%;
+    border-radius: 10px;
+    /* width:fit-content; */
+}
+.example .code{
+    margin: 0;
+    padding: 1%;
+    width:auto;
+    font-family: monospace;
+}
+
+#variable-types >*{
+margin-bottom: 0.5%;
+}
+
+.code,.single-line-code{
+    color: white;
+    background-color: rgb(90, 86, 86);
+    border-radius: 6px;
+    width: 90%;
+    padding: 0.2px 0.7% ;
+}
+
+.example h4{
+margin: 0;
+margin-bottom: 1%;
+}
+
+#main-doc{
+    margin-left: 2%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-right: 3%;
+}
+
+#section-title{
+
+}
+
+.article{
+margin-left:3% ;
+}
+
+#Data-Types-Exapmle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#navbar{
+    font-family: 'Open Sans', Arial, sans-serif;
+    border-right: black solid ; 
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    
+}
+
+
+
+#navTitle{
+    margin: 0;
+}
+#navSection{
+    position: sticky;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#navSection a{
+    text-decoration: none;
+    font-weight: bold;
+    border-top:1px solid black;
+    padding: 4% 40px;
+    color: rgb(77,78,83);
+}
+@media screen and (min-width: 600px) {
+ #navbar{
+    white-space: nowrap;
+ }
+}
+body{
+    display: flex;
+    margin: 0;
+    margin-bottom: 1%;
+    width: fit-content;
+}
+
+*{
+    line-height: 130%;
+    box-sizing: border-box;
+}
